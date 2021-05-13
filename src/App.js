@@ -1,5 +1,13 @@
+import Content from "./componets/Content";
+import Parallax from "./componets/Parallax";
+
 const App = () => {
-    return <div>Hello World</div>;
+    return (
+        <>
+            <Parallax />
+            <Content />
+        </>
+    );
 };
 
 export default App;

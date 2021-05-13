@@ -1,0 +1,20 @@
+<svg id="_3" data-name="3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="483.327" viewBox="0 0 1366 483.327">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.525" y1="0.104" x2="0.483" y2="0.772" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fffaf2"/>
+      <stop offset="0.01" stop-color="#fffaf1" stop-opacity="0.988"/>
+      <stop offset="0.38" stop-color="#fff1dd" stop-opacity="0.569"/>
+      <stop offset="0.68" stop-color="#ffebce" stop-opacity="0.259"/>
+      <stop offset="0.89" stop-color="#ffe7c5" stop-opacity="0.071"/>
+      <stop offset="1" stop-color="#ffe6c1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.499" x2="0.613" y2="0.908" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bf5047"/>
+      <stop offset="0.88" stop-color="#de7e42"/>
+    </linearGradient>
+  </defs>
+  <g id="BACKGROUND" transform="translate(0 0)">
+    <path id="Path_5" data-name="Path 5" d="M897.735,245.8c-5.282-15.536-18.851-27.721-34.114-34.259-16.92-7.285-34.2-4.517-52.6-4.717-10.746-18.942-30.107-32.11-51.234-37.41a55.15,55.15,0,0,0-38.594-21.856c-15.135-1.439-29.906,5.992-41.107,16.392a69.739,69.739,0,0,0-52.309-18.5c-18.978,1.421-39.286,8.578-51,23.532-10.564-11.657-27.1-15.026-39.213-4.99a108.606,108.606,0,0,0-68.136-45.351c-27.466-5.464-63.073.6-86.386,16.1-10.928-17.612-38.376-21.856-53.966-8.287A84.182,84.182,0,0,0,282.908,82.5,89.045,89.045,0,0,0,217.34,83.88c-5.191-16.665-24.333-30.2-41.526-27.32-23.24-22-60.432-23.677-89.555-10.363A147.692,147.692,0,0,0,0,20.443V245.8Z" transform="translate(0 16.767)" fill="url(#linear-gradient)"/>
+    <path id="Path_6" data-name="Path 6" d="M1192.7,0V483.327H211c57.773-23.295,102.268-72.853,151.171-114.744q5.865-5.027,11.857-9.926c28.03-22.84,57.9-42.4,92.779-52.582,60.924-17.776,128.55-3.952,189.054-22.967,43.238-13.569,77.917-42.164,112.577-71.032,4.754-3.952,9.526-7.941,14.316-11.875l4.644-3.807c26.464-21.674,54.075-42,86.295-54.33A258.979,258.979,0,0,1,916,130.28c38.594-7.668,79.5-9.507,116.93-17.849,26.737-5.938,51.689-15.208,72.854-32.347s35.352-40.069,54.767-58.519A108.59,108.59,0,0,1,1192.7,0Z" transform="translate(173.301 0)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
