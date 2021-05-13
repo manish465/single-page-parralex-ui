@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion, useViewportScroll, useTransform } from "framer-motion";
 
 const BannerContainer = styled.div`
     width: 100%;
@@ -12,12 +13,12 @@ const BannerContainer = styled.div`
     align-items: center;
 `;
 
-const BannerHeading = styled.h1`
+const BannerHeading = styled(motion.h1)`
     font-size: 4.5rem;
     color: #2c0c19;
 `;
 
-const BannerButton = styled.button`
+const BannerButton = styled(motion.button)`
     cursor: pointer;
     background: #2c0c19;
     width: 150px;
@@ -34,10 +35,15 @@ const BannerButton = styled.button`
 `;
 
 const Banner = () => {
+    const { scrollY } = useViewportScroll();
+    const x1 = useTransform(scrollY, [0, 600], [0, 200]);
+    const x2 = useTransform(scrollY, [0, 600], [0, -200]);
     return (
         <BannerContainer>
-            <BannerHeading>Do Your Won Research</BannerHeading>
-            <BannerButton>Get Started</BannerButton>
+            <BannerHeading style={{ x: x1 }}>
+                Do Your Own Research
+            </BannerHeading>
+            <BannerButton style={{ x: x2 }}>Get Started</BannerButton>
         </BannerContainer>
     );
 };

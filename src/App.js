@@ -1,7 +1,4 @@
-import Content from "./componets/Content";
-import Parallax from "./componets/Parallax";
-import Banner from "./componets/Banner";
-import AppBar from "./componets/AppBar";
+import { AppBar, Banner, Content, Parallax } from "./componets";
 
 const App = () => {
     return (
