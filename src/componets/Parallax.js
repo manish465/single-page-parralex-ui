@@ -18,8 +18,8 @@ const Parallax = () => {
     const y1 = useTransform(scrollY, [0, 600], [0, 5]);
     const y2 = useTransform(scrollY, [0, 600], [0, 10]);
     const y3 = useTransform(scrollY, [0, 600], [0, 25]);
-    const y4 = useTransform(scrollY, [0, 600], [0, 50]);
-    const y5 = useTransform(scrollY, [0, 600], [0, 100]);
+    const y4 = useTransform(scrollY, [0, 300], [0, 50]);
+    const y5 = useTransform(scrollY, [0, 400], [0, 100]);
     const y6 = useTransform(scrollY, [0, 600], [0, 200]);
     return (
         <ParallaxContainer>

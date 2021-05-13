@@ -10,6 +10,9 @@ const AppBarContainer = styled.div`
     align-items: center;
     padding: 30px 100px;
     z-index: 1000;
+    @media (max-width: 800px) {
+        padding: 5px 10px;
+    }
 `;
 
 const AppBarLogo = styled.h1`
@@ -17,6 +20,10 @@ const AppBarLogo = styled.h1`
     font-size: 2.3rem;
     font-weight: bold;
     cursor: pointer;
+    margin: 0;
+    @media (max-width: 800px) {
+        font-size: 1rem;
+    }
 `;
 
 const AppBarLinks = styled.div`
@@ -37,8 +44,10 @@ const AppBarLink = styled.div`
             padding: 5px 20px;
             border-radius: 20px;
             box-shadow: 3px 3px 17px black;
+            @media (max-width: 800px) {
+                padding: 1px 10px;
+            }
         `}
-
     &:hover {
         border-bottom: 4px double #2c0c19;
 
@@ -49,6 +58,9 @@ const AppBarLink = styled.div`
                 color: #2c0c19;
                 background-color: #ffe6c1;
             `}
+    }
+    @media (max-width: 800px) {
+        font-size: 0.6rem;
     }
 `;
 

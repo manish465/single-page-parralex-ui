@@ -16,6 +16,9 @@ const BannerContainer = styled.div`
 const BannerHeading = styled(motion.h1)`
     font-size: 4.5rem;
     color: #2c0c19;
+    @media (max-width: 800px) {
+        font-size: 2.4rem;
+    }
 `;
 
 const BannerButton = styled(motion.button)`

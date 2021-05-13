@@ -4,6 +4,9 @@ const Container = styled.div`
     position: relative;
     width: 100%;
     padding: 90px;
+    @media (max-width: 800px) {
+        padding: 20px 10px;
+    }
 `;
 
 const ContentHeading = styled.h1`
