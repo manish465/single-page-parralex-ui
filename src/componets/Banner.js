@@ -26,6 +26,11 @@ const BannerButton = styled.button`
     border-radius: 40px;
     color: #ffe6c1;
     box-shadow: 3px 3px 17px black;
+    font-weight: bold;
+    &:hover {
+        color: #2c0c19;
+        background-color: #ffe6c1;
+    }
 `;
 
 const Banner = () => {
